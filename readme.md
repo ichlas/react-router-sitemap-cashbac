@@ -52,7 +52,7 @@ npm install --save-dev babel-preset-es2015
 npm install --save-dev babel-preset-react
 npm install --save-dev babel-register
 ```
-Sekarang tambahkan skrip di . Anda package.json
+Sekarang tambahkan skrip dibawah ini pada package.json anda
 ```...
 "scripts": {
     ...
@@ -60,7 +60,7 @@ Sekarang tambahkan skrip di . Anda package.json
   }
 ...
 ```
-Sekarang jalankan npm run sitemap dan Voila! sitemap.xml telah terbentuk di directory public Anda.
+Sekarang jalankan npm run sitemap dan Voila! sitemap.xml telah terbentuk di directory public Anda. 
 
 ## Langkah 5 - Menambahkan jalur dinamis ke sitemap.xml Anda
 Berikuta adalah sample script yang digunakan untuk membuat sitemap dinamis
@@ -116,3 +116,6 @@ async function generateSitemap() {
 generateSitemap();
 ```
 
+Itu saja untuk saat ini teman-teman :)
+
+Terima Kasih.
