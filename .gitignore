@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+/node_modules
+sitemap.xml
+sitemap*.xml
+index.es5.js
+npm-debug.log
